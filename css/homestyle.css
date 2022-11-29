@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    color: #333;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#heading{
+    margin: 5pc;
+}
+h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+#searchInput{
+ display: flex;
+}
+
+/*------------------------------------------- popup containerone -------------------------------------------------*/
+
+
+#popupContainer{
+    z-index: 200;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+#ok{
+    position: relative;
+    left:43%;
+    margin-top: 10%;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #009A61;
+    color: #fff;
+    border-radius: 20px;
+}
+#popUp{
+   
+    margin-top: 18%;
+    margin-left: 40%;
+    position: absolute;
+   opacity: 1;
+   color:#fff ;
+   background-color: black;
+   padding: 90px 60px;
+   border-radius: 30px;
+   align-items:center ;
+}
+
+
+/* ----------------------------------------------------------popup-2--------------------------------------------- */
+
+#popupContainerTwo{
+    z-index: 200;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+#okTwo{
+    position: relative;
+    left:43%;
+    margin-top: 10%;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #009A61;
+    color: #fff;
+    border-radius: 20px;
+}
+#popUpTwo{
+   
+    margin-top: 18%;
+    margin-left: 40%;
+    position: absolute;
+   opacity: 1;
+   color:#fff ;
+   background-color: black;
+   padding: 90px 60px;
+   border-radius: 30px;
+   align-items:center ;
+}
+
+#button1[disabled]{
+    background-color: #C0C0C0;
+    /* background-color: rgb(128, 203, 175); */
+ }
+#button1Parent{
+display: flex;
+justify-content: right;
+position: relative;
+right: 320px;
+top: 24px;
+
+
+}
+#button1{
+    margin-right: 3%;
+    z-index: 9;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+background-color: #009A61;
+font-weight: bold;
+}
+#tableone{
+    color: #73879C;
+}
+
+
+/* --------------------------back button for login---------------------- */
+
+#backContainer{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#back{
+    box-shadow: #333 5px 5px 5px ;
+  background-color: #009A61;  
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+@media (max-width:645px){
+
+   
+    #button1{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 50px;
+    }
+}
+
+/* ----------------------------------------------------bts--------------------------------------------------- */
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+ }
+ .navbar-dark .navbar-nav .nav-link {
+    color: white;
+ }
+ .mt-11{
+    margin-top: 110px;
+ }
+ .mt-16{
+     margin-top: 160px;
+ }

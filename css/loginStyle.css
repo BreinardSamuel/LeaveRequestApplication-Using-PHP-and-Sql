@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    color: #333;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+input[type="text"]{
+    padding-left: 10px;
+}
+input[type="password"]{
+    padding-left: 10px;
+}
+/* .input{
+    display: flex;
+} */
+#formRows{
+    margin-bottom: 10%;
+}
+#Password{
+    width: 50%;
+}
+#showPassword{
+    width:10px;
+}
+#showPasswordContainer{
+   padding-left: 23%;
+}
+.label{
+    width: 150px;
+    display: inline-block;
+}
+#loginForm{
+    display: block;
+}
+#loginContainer{
+    /* background-color: #48a24cbf; */
+    color: #333;
+    width: 36%;
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 32%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    box-shadow:#333 5px 5px 15px;
+}
+#login{
+    display: block;
+    width: 50%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #009A61;
+    font-size: medium;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: #333 5px 5px 5px;
+}
+#loginButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#userName{
+width: 50%;
+}
+#formDiv{
+   text-align: center;
+}
+
+/* ---------------------------popup 1-------------------- */
+
+
+
+#popupContainer{
+    z-index: 200;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+#ok{
+    position: relative;
+    left:43%;
+    margin-top: 10%;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #009A61;
+    color: #fff;
+    border-radius: 20px;
+}
+#popUp{
+   
+    /* margin-top: 18%; */
+    margin-left: 38%;
+    position: absolute;
+   opacity: 1;
+   color:#fff ;
+   background-color: black;
+   padding: 90px 60px;
+   border-radius: 30px;
+   align-items:center ;
+}
+
+/* ---------------------------------------popup 2--------------- */
+
+
+#popupContainerTwo{
+    z-index: 200;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+#okTwo{
+    position: relative;
+    left:43%;
+    margin-top: 10%;
+    padding: 10px 20px;
+    font-weight: bolder;
+    background-color: #009A61;
+    color: #fff;
+    border-radius: 20px;
+}
+#popUpTwo{
+   
+    /* margin-top: 18%; */
+    margin-left: 40%;
+    position: absolute;
+   opacity: 1;
+   color:#fff ;
+   background-color: black;
+   padding: 90px 60px;
+   border-radius: 30px;
+   align-items:center ;
+}
+
+/* -------------------back button ---------------------- */
+
+#backContainer{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#back{
+    box-shadow: #333 5px 5px 5px ;
+  background-color: #009A61;  
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* ----------------------------------------------------bts--------------------------------------------------- */
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+ }
+ .navbar-dark .navbar-nav .nav-link {
+    color: white;
+ }
+ .mt-11{
+    margin-top: 110px;
+ }

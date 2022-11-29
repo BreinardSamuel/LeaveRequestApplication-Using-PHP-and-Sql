@@ -1,0 +1,341 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: sans-serif;  
+}
+
+body{
+   background-color: #fff;
+   color: #333;
+   background-color: #fff;
+}
+#headerContainer{
+   display: flex;
+   justify-content: flex-end;
+   padding: 10px;
+}
+#header{
+   display: block;
+   color: #333;
+}
+#loginLink{
+   border-radius: 5px;
+   padding: 4px;
+   color: #fff;
+  text-decoration: none;
+  background-color: #00A367;
+  box-shadow:#333 5px 5px 5px;
+}
+#loginLabel{
+   color: #333;
+}
+#flexContainer{
+   display: flex;
+   justify-content: center;
+}
+#leaveFormContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   padding: 40px;
+   margin-top: 3%;
+   color: #333;
+   border-radius: 30px;
+   box-shadow: black 10px 10px 15px;
+}
+div#leaveFormContainer{
+   border-color: black;
+   border-style: solid;
+}
+#employeeLeaveForm{
+  margin-top: 20px;
+  margin-bottom: 80px;
+  word-spacing: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#leaveFormContainer{
+   border: 2px solid;
+   width: 40%;
+   height: max-content;
+  
+}
+#dayOff{
+   margin-bottom: 30px;
+}
+.formRows{
+   margin-bottom: 50px;
+}
+
+.label{
+   width: 200px;
+   display: inline-block;
+}
+textarea{
+   display: inline-block;
+
+}
+#userName{
+   width: 50%;
+}
+#nameError{
+  font-size: 15px;
+  padding-top: 2%;
+  display: flex;
+  position: relative;
+  right: 10%;
+  justify-content: flex-end;
+  color:red;
+
+}
+#projectName{
+   width: 50%;
+}
+#projectNameError{
+   font-size: 15px;
+   padding-top: 2%;
+   display: flex;
+   position: relative;
+  right: 10%;
+   justify-content: flex-end;
+   color:red;
+}
+input[type="text"]{
+   padding-left: 5px;
+   color: #00A367;
+}
+input[type="date"]{
+   color: #00A367;
+}
+#startDate{
+  cursor: pointer;
+   width: 50%;
+}
+#startDateError{
+   font-size: 15px;
+   padding-top: 2%;
+   display: flex;
+   justify-content: flex-end;
+   color:red;
+   position: relative;
+  right: 10%;
+
+}
+#endDate{
+  cursor: pointer;
+   width: 50%;
+}
+#endDateError{
+   font-size: 15px;
+   padding-top: 2%;
+   display: flex;
+   justify-content: flex-end;
+   color:red;
+   position: relative;
+  right: 10%;
+
+}
+#spanForRadioButtons{
+    display: contents;
+}
+#dayoff{
+   display: inline-block;
+}
+.labels{
+  width: 160px;
+  display: inline-flex;
+}
+
+#radioButtons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1rem;
+    margin-top: 30px;
+}
+
+#am{
+   accent-color: #00A367;
+}
+#pm{
+   accent-color: #00A367;
+}
+#allDay{
+   accent-color: #00A367;
+}
+#radioButtonsError{
+   font-size: 15px;
+   padding-top: 2%;
+   display: flex;
+   justify-content: flex-end;
+   color:red;
+   position: relative;
+  right: 10%;
+}
+#typeOfLeave{
+  cursor: pointer;
+   color: #00A367;
+   width: 50%;
+}
+ #typeOfLeaveError{
+   font-size: 15px;
+   padding-top: 2%;
+   display: flex;
+   justify-content: flex-end;
+   color:red;
+   position: relative;
+  right: 10%;
+}
+#reason{
+   padding: 2%;
+}
+#reasonError{
+   font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+  color:red;
+  position: relative;
+  right: 10%;
+}
+#totalcharacters{
+   display: flex;
+   justify-content: right;
+}
+#remainingCharacters{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+textarea{
+   color: #00A367;
+   width: 50%;
+}
+#buttonSubmit{
+   cursor: pointer;
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #00A367;
+  color: #ffff;
+  font-weight: bold;
+  font-size: large;
+  box-shadow: #333 10px 10px 5px ;
+}
+
+#button{
+  display: flex;
+  justify-content: center;
+}
+
+/*! For table */
+
+#tableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+table{
+   display: none;
+    background-color: white;
+}
+th,tr,td{
+   padding: 10px;
+}
+
+input#startDate{
+  display: inline-block;
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+/* --------------------------select anywhere in the datepicker--------------- */
+
+
+input#endDate {
+  display: inline-block;
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+/* ---------------------------popup 1-------------------- */
+
+
+
+#popupContainer{
+
+  display: none;
+  z-index: 200;
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  position: absolute;
+}
+#ok{
+  position: relative;
+  left:43%;
+  margin-top: 10%;
+  padding: 10px 20px;
+  font-weight: bolder;
+  background-color: #009A61;
+  color: #fff;
+  border-radius: 20px;
+}
+#popUp{
+ 
+  margin-top: 44%;
+  margin-left: 38%;
+  position: absolute;
+ opacity: 1;
+ color:#fff ;
+ background-color: black;
+ padding: 90px 60px;
+ border-radius: 30px;
+ align-items:center ;
+}
+
+#sideBar{
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------------bts--------------------------------------------------- */
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0 !important;
+  align-items: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.mt-11{
+  margin-top: 110px;
+}
